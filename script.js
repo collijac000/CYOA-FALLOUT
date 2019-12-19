@@ -302,8 +302,8 @@ let radscorpp=function(){
       let randrange=randmax-randmin
       let punch = Math.floor(Math.random() * (randrange + 1)) + randmin;
       if(punch<=punchC){
-        document.getElementById("words").innerHTML="[SUCESS]You were succesfully able to kill the RadScorpion. You notice a town to the west."
-      document.getElementById("choices").innerHTML="<br><input type='radio' onclick='prim1'>Go toards the town<br><input type='radio' onclick='nv2()'>Continue to New Vegas"
+        document.getElementById("words").innerHTML="[SUCCESS]You were succesfully able to kill the RadScorpion. You notice a town to the west."
+      document.getElementById("choices").innerHTML="<br><input type='radio' onclick='prim1()'>Go toards the town<br><input type='radio' onclick='nv2()'>Continue to New Vegas"
       }else{
       document.getElementById("words").innerHTML="Without a proper weapon or being strong enough you could not kill the RadScorpion. <b>You died</b>"
       document.getElementById("choices").innerHTML=""
