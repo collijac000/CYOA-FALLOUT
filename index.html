@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Sahitya&display=swap" rel="stylesheet">
+
+  </head>
+  
+  <body id="deleteStuff">
+    
+    
+    <h1 > Welcome</h1><br><p>This is a Choose Your Own Adventure game based on the series Fallout by Bethesda Game Studios. </p>
+    <input id="stats"type="button" onclick="getSpecial()" value="Get Your Stats">
+    <table>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      
+      <tr class="rows">
+        <th ><div id="str"></div></th>
+       <th> <input type="button" value="<"class="adsub" id="subs"onclick="sub('s')"></th>
+        <th><div class="nums" id="strc"></div></th>
+        <th><input type="button" value=">" class="adsub" id="adds"onclick="add('s')"></th>
+      
+      </tr>
+
+      <tr>
+        <th><div id="per"></div></th>
+        <th> <input type="button" value="<"class="adsub" id="subp"onclick="sub('p')"></th>
+        <th><div class="nums" id="perc"></div></th>
+        <th><input type="button" value=">" class="adsub" id="addp"onclick="add('p')"></th>
+
+      </tr>
+      <tr>
+       
+        <th><div id="end"></div></th>
+        <th> <input type="button" value="<"class="adsub" id="sube"onclick="sub('e')"></th>
+        <th><div class="nums" id="endc"></div></th><th><input type="button" value=">" class="adsub" id="adde"onclick="add('e')"></th>
+      </tr>
+      <tr>
+        <th><div id="cha"></div></th>
+        <th> <input type="button" value="<"class="adsub" id="subc"onclick="sub('c')"></th>
+        <th><div class="nums" id="chac"></div></th>
+        <th><input type="button" value=">" class="adsub" id="addc"onclick="add('c')"></th>
+      </tr>
+      <tr>
+        <th><div id="int"></div></th>
+        <th> <input type="button" value="<"class="adsub" id="subi"onclick="sub('i')"></th>
+        <th><div class="nums" id="intc"></div></th>
+        <th><input type="button" value=">" class="adsub" id="addi"onclick="add('i')"></th>
+      </tr>
+      <tr>
+        <th><div id="agi"></div></th>
+        <th> <input type="button" value="<"class="adsub" id="suba"onclick="sub('a')"></th>
+        <th><div class="nums" id="agic"></div></th>
+        <th><input type="button" value=">" class="adsub" id="adda"onclick="add('a')"></th>
+      </tr>
+      <tr>
+        <th><div id="luc"></div></th>
+        <th> <input type="button" value="<"class="adsub" id="subl"onclick="sub('l')"></th>
+        <th><div class="nums" id="lucc"></div></th>
+        <th><input type="button" value=">" class="adsub" id="addl"onclick="add('l')"></th>
+      </tr>
+      <tr>
+        <div id="pointos"></div>
+      </tr>
+    </table>
+
+
+
+    <input type="button" id="start" onclick="startStuff()" value="Start">
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,73 @@
+body{
+  background-color: black;
+    color:#09DA0F;
+    font-family: 'Sahitya', serif;
+
+}
+table{
+ // text-align: left;
+ 
+}
+div.nums{
+ // padding-left:  15px;
+  padding-bottom: 5px;
+  
+}
+.spacingStuff{
+  padding-bottom: 5px;
+}
+
+
+}
+h1{
+  text-allign:center;
+}
+
+@keyframes .adsub:hover{
+from{background-color:red;}
+to{background-color:blue;}
+}
+.adsub{
+  transition:all 0.2s;
+  border:none;
+  cursor:pointer;
+  background-color: #000000;
+  color:#09DA0F;
+}
+.rows:hover{
+  color: black;
+
+}
+
+}
+.nums:hover{
+  color:black;
+}
+
+tr:hover{
+background-color:#1CFC1F;
+  color: black;
+}
+
+.r1{
+
+}
+#rifle:hover{
+  
+}
+h1{
+  text-align: center
+}
+#stats{
+  background-color: black;
+  color: #1CFC1F;
+  border:none;
+    font-family: 'Sahitya', serif;
+
+}
+#start{
+    background-color: black;
+  color: #1CFC1F;
+  border:none;
+    font-family: 'Sahitya', serif;
+}
