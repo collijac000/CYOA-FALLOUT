@@ -254,7 +254,7 @@ let fsd1=function(){
 
   
   document.getElementById("words").innerHTML="Thank You sir or Madam you may proceed"
-  document.getElementById("choices").innerHTML="<br><input type='radio' onclick='end()>'"
+  document.getElementById("choices").innerHTML="<br><input type='radio' onclick='end()'>"
 }else{
   document.getElementById("words").innerHTML="The Protectron yells Intruder alert and you are shot to death.<b>You Died</b>"
   document.getElementById("choices").innerHTML=""
